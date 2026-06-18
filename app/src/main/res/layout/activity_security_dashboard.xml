@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:background="#F5F7FA">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:orientation="vertical"
+
+        android:padding="18dp">
+
+        <!-- HEADER -->
+
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            app:cardCornerRadius="24dp"
+
+            app:cardElevation="8dp"
+
+            app:strokeWidth="0dp"
+
+            app:cardBackgroundColor="#FFFFFF">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="135dp"
+
+                android:gravity="center_vertical"
+
+                android:orientation="horizontal"
+
+                android:padding="18dp">
+
+                <ImageView
+                    android:layout_width="65dp"
+                    android:layout_height="65dp"
+
+                    android:src="@drawable/fabtech_logo" />
+
+                <LinearLayout
+                    android:layout_width="93dp"
+                    android:layout_height="77dp"
+
+                    android:layout_marginStart="14dp"
+
+                    android:layout_weight="1"
+
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="115dp"
+                        android:layout_height="match_parent"
+
+                        android:text="Security Dashboard"
+
+                        android:textColor="#111827"
+
+                        android:textSize="22sp"
+
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+
+                        android:text="FABPASS Verification"
+
+                        android:textColor="#6B7280"
+
+                        android:textSize="13sp" />
+
+                </LinearLayout>
+
+                <Button
+                    android:id="@+id/logoutBtn"
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:backgroundTint="#EF4444"
+
+                    android:text="Logout"
+
+                    android:textColor="#FFFFFF"
+
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+        </com.google.android.material.card.MaterialCardView>
+
+        <!-- SCAN CARD -->
+
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_marginTop="18dp"
+
+            app:cardCornerRadius="24dp"
+
+            app:cardElevation="8dp"
+
+            app:strokeWidth="0dp"
+
+            app:cardBackgroundColor="#FFFFFF">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:orientation="vertical"
+
+                android:padding="24dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:text="Verify GatePass"
+
+                    android:textStyle="bold"
+
+                    android:textSize="25sp"
+
+                    android:textColor="#111827"/>
+
+                <Button
+                    android:id="@+id/scanBtn"
+
+                    android:layout_width="match_parent"
+                    android:layout_height="56dp"
+
+                    android:layout_marginTop="24dp"
+
+                    android:text="Scan QR"
+
+                    android:textStyle="bold"
+
+                    android:textColor="#FFFFFF"
+
+                    android:backgroundTint="#2563EB"/>
+
+                <Button
+                    android:id="@+id/uploadBtn"
+
+                    android:layout_width="match_parent"
+                    android:layout_height="56dp"
+
+                    android:layout_marginTop="14dp"
+
+                    android:text="Upload QR Image"
+
+                    android:textStyle="bold"
+
+                    android:textColor="#FFFFFF"
+
+                    android:backgroundTint="#7C3AED"/>
+
+                <EditText
+                    android:id="@+id/manualCode"
+
+                    android:layout_width="match_parent"
+                    android:layout_height="56dp"
+
+                    android:layout_marginTop="18dp"
+
+                    android:hint="Enter Request ID"
+
+                    android:padding="14dp"
+
+                    android:background="@drawable/edittext_bg"/>
+
+                <Button
+                    android:id="@+id/checkBtn"
+
+                    android:layout_width="match_parent"
+                    android:layout_height="56dp"
+
+                    android:layout_marginTop="14dp"
+
+                    android:text="Check Manually"
+
+                    android:textStyle="bold"
+
+                    android:textColor="#FFFFFF"
+
+                    android:backgroundTint="#059669"/>
+
+                <TextView
+                    android:id="@+id/resultText"
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:layout_marginTop="24dp"
+
+                    android:textSize="18sp"
+
+                    android:textStyle="bold"
+
+                    android:textColor="#111827"/>
+
+            </LinearLayout>
+
+        </com.google.android.material.card.MaterialCardView>
+
+    </LinearLayout>
+
+</ScrollView>

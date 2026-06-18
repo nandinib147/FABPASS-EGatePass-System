@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:background="#F4F7FC">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:orientation="vertical"
+
+        android:padding="24dp">
+
+        <!-- TITLE -->
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:text="Create Account"
+
+            android:textSize="30sp"
+
+            android:textStyle="bold"
+
+            android:textColor="#1E3A5F"
+
+            android:layout_gravity="center"
+
+            android:layout_marginTop="20dp"/>
+
+        <!-- PROFILE IMAGE -->
+
+        <ImageView
+            android:id="@+id/profileImage"
+
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+
+            android:layout_gravity="center"
+
+            android:layout_marginTop="20dp"
+
+            android:src="@android:drawable/ic_menu_camera"
+
+            android:background="#E5E7EB"
+
+            android:padding="12dp"/>
+
+        <!-- UPLOAD BUTTON -->
+
+        <Button
+            android:id="@+id/uploadBtn"
+
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+
+            android:text="Upload Profile Photo"
+
+            android:textStyle="bold"
+
+            android:textColor="#FFFFFF"
+
+            android:backgroundTint="#2563EB"
+
+            android:layout_marginTop="16dp"/>
+
+        <!-- FULL NAME -->
+
+        <EditText
+            android:id="@+id/fullName"
+
+            android:layout_width="match_parent"
+            android:layout_height="58dp"
+
+            android:layout_marginTop="18dp"
+
+            android:hint="Full Name"
+
+            android:textColor="#000000"
+
+            android:textColorHint="#000000"
+
+            android:background="@drawable/edittext_bg"
+
+            android:padding="16dp"/>
+
+        <!-- MOBILE -->
+
+        <EditText
+            android:id="@+id/mobileNo"
+
+            android:layout_width="match_parent"
+            android:layout_height="58dp"
+
+            android:layout_marginTop="14dp"
+
+            android:hint="Mobile Number"
+
+            android:inputType="phone"
+
+            android:textColor="#000000"
+
+            android:textColorHint="#000000"
+
+            android:background="@drawable/edittext_bg"
+
+            android:padding="16dp"/>
+
+        <!-- ADDRESS -->
+
+        <EditText
+            android:id="@+id/address"
+
+            android:layout_width="match_parent"
+            android:layout_height="58dp"
+
+            android:layout_marginTop="14dp"
+
+            android:hint="Address"
+
+            android:textColor="#000000"
+
+            android:textColorHint="#000000"
+
+            android:background="@drawable/edittext_bg"
+
+            android:padding="16dp"/>
+
+        <!-- PARENT MOBILE -->
+
+        <EditText
+            android:id="@+id/parentMobile"
+
+            android:layout_width="match_parent"
+            android:layout_height="58dp"
+
+            android:layout_marginTop="14dp"
+
+            android:hint="Parent Mobile Number"
+
+            android:inputType="phone"
+
+            android:textColor="#000000"
+
+            android:textColorHint="#000000"
+
+            android:background="@drawable/edittext_bg"
+
+            android:padding="16dp"/>
+
+        <!-- PRN -->
+
+        <EditText
+            android:id="@+id/prnNo"
+
+            android:layout_width="match_parent"
+            android:layout_height="58dp"
+
+            android:layout_marginTop="14dp"
+
+            android:hint="PRN Number"
+
+            android:textColor="#000000"
+
+            android:textColorHint="#000000"
+
+            android:background="@drawable/edittext_bg"
+
+            android:padding="16dp"/>
+
+        <!-- DEPARTMENT -->
+
+        <Spinner
+            android:id="@+id/deptSpinner"
+
+            android:layout_width="match_parent"
+            android:layout_height="58dp"
+
+            android:layout_marginTop="14dp"
+
+            android:background="@drawable/edittext_bg"/>
+
+        <!-- YEAR -->
+
+        <Spinner
+            android:id="@+id/yearSpinner"
+
+            android:layout_width="match_parent"
+            android:layout_height="58dp"
+
+            android:layout_marginTop="14dp"
+
+            android:background="@drawable/edittext_bg"/>
+
+        <!-- DIVISION -->
+
+        <Spinner
+            android:id="@+id/divSpinner"
+
+            android:layout_width="match_parent"
+            android:layout_height="58dp"
+
+            android:layout_marginTop="14dp"
+
+            android:background="@drawable/edittext_bg"/>
+
+        <!-- USERNAME -->
+
+        <EditText
+            android:id="@+id/regUsername"
+
+            android:layout_width="match_parent"
+            android:layout_height="58dp"
+
+            android:layout_marginTop="14dp"
+
+            android:hint="Username"
+
+            android:textColor="#000000"
+
+            android:textColorHint="#000000"
+
+            android:background="@drawable/edittext_bg"
+
+            android:padding="16dp"/>
+
+        <!-- PASSWORD -->
+
+        <EditText
+            android:id="@+id/regPassword"
+
+            android:layout_width="match_parent"
+            android:layout_height="58dp"
+
+            android:layout_marginTop="14dp"
+
+            android:hint="Password"
+
+            android:inputType="textPassword"
+
+            android:textColor="#000000"
+
+            android:textColorHint="#000000"
+
+            android:background="@drawable/edittext_bg"
+
+            android:padding="16dp"/>
+
+        <!-- ROLE -->
+
+        <Spinner
+            android:id="@+id/regRole"
+
+            android:layout_width="match_parent"
+            android:layout_height="58dp"
+
+            android:layout_marginTop="14dp"
+
+            android:background="@drawable/edittext_bg"/>
+
+        <!-- REGISTER BUTTON -->
+
+        <Button
+            android:id="@+id/registerBtn"
+
+            android:layout_width="match_parent"
+            android:layout_height="58dp"
+
+            android:text="Create Account"
+
+            android:textStyle="bold"
+
+            android:textSize="18sp"
+
+            android:textColor="#FFFFFF"
+
+            android:backgroundTint="#1D4ED8"
+
+            android:layout_marginTop="22dp"
+
+            android:layout_marginBottom="30dp"/>
+
+    </LinearLayout>
+
+</ScrollView>

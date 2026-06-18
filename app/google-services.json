@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "655889448704",
+    "project_id": "fabpass-e81f3",
+    "storage_bucket": "fabpass-e81f3.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:655889448704:android:ad17ca9521628526ca7de5",
+        "android_client_info": {
+          "package_name": "com.example.egatepass"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAaeky3-JjwhvuIN0ze-xDhmdtJ2Ma05fI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
